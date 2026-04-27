@@ -1,2 +1,2 @@
 # Seq2Seq-Transformer-for-News-Title-Generation
-Built encoder-decoder transformer architecture from scratch in PyTorch including multi-head attention, positional encoding, and masked self-attention Trained on 280k CNN/DailyMail articles across 7 epochs on dual NVIDIA T4 GPUs Model successfully learns to generate topically relevant titles from unseen articles
+In this project I built a encoder-decoder transformer architecture from scratch in PyTorch including multi-head attention, positional encoding, and masked self-attention. I trained this on 280k CNN/DailyMail articles across 7 epochs on dual NVIDIA T4 GPUs. At first training I ran into repeition collapse so I decided to add a repetion penalty . I also decided to train for 7 epochs which led me to this final model.
